@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+sqlalchemy>=2.0
+psycopg[binary]>=3.1
+alembic
+redis>=5.0
+celery[redis]>=5.3
+pydantic[email]>=2
+bcrypt>=4.1
+pyjwt>=2.8
+python-multipart
