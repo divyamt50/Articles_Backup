@@ -1,4 +1,4 @@
-# Articles Backend Service
+# Articles Backend Services
 
 A FastAPI-based backend service with authentication, database migrations, caching, background task processing, and pub/sub support.
 
