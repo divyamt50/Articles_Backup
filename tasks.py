@@ -4,7 +4,7 @@ from sqlalchemy import create_engine, update, select
 from sqlalchemy.orm import Session
 from celery import Celery
 from models import Article
-
+#celery task are sync
 DB_URL = os.getenv("DB_URL", "postgresql+psycopg://postgres:password@localhost:5432/fastapi_db")
 REDIS_URL = os.getenv("REDIS_URL", "redis://localhos:6379/0")
 CELERY_BROKER_URL = os.getenv("CELERY_BROKER_URL", "redis://localhost:6379/1")
